@@ -58,6 +58,7 @@ public class trafficlight2
 public static void main(String args[])
 {
 JFrame f = new JFrame(); f.setVisible(true); f.setSize(640,480); f.setLayout(null);
+f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 light t = new light(); f.add(t);
 }
 }
